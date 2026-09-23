@@ -13,7 +13,7 @@ class AppearanceSettingsGroup extends StatelessWidget {
 
     return Card(
       child: Column(
-        children: [
+      children: [
           Obx(() {
             final isDark = controller.isDarkMode;
             return SwitchListTile(
